@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sbebrone/makemeasandwich.js.svg)](https://travis-ci.org/sbebrone/makemeasandwich.js)
+
 makemeasandwich.js
 ==========================
 This is a Node.js application that is capable of ordering a Jimmy John's sandwich via command line, bringing to life this legendary XKCD comic.
