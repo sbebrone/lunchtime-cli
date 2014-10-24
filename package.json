@@ -1,30 +1,31 @@
 {
-  "name": "makemeasandwich",
-  "version": "0.0.8",
-  "description": "A node.js application that will order you a sandwich from Jimmy Johns via command line.",
+  "name": "lunchtime-cli",
+  "version": "0.0.1",
+  "description": "A node.js application that will order you a sandwich from Lunchtime via command line.",
   "author": {
-    "name": "Travis Tidwell",
-    "email": "travist349@gmail.com",
-    "url": "http://github.com/travist"
+    "name": "Stephane Bebrone",
+    "email": "s.bebrone@gmail.com",
+    "url": "http://github.com/sbebrone"
   },
-  "homepage": "http://github.com/travist/makemeasandwich.js",
+  "homepage": "http://github.com/sbebrone/makemeasandwich.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/travist/makemeasandwich.js.git"
+    "url": "git://github.com/sbebrone/makemeasandwich.js.git"
   },
   "bugs": {
-    "url": "http://github.com/travist/makemeasandwich.js/issues"
+    "url": "http://github.com/sbebrone/makemeasandwich.js/issues"
   },
   "bin": {
     "makemeasandwich": "./bin/makemeasandwich"
   },
   "main": "./lib/makemeasandwich.js",
   "dependencies": {
+    "async": ">=0",
     "jquerygo": ">=0",
-    "underscore": ">=0",
+    "moment": "^2.8.3",
     "nconf": ">=0",
     "prompt": ">=0",
-    "async": ">=0"
+    "underscore": ">=0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
